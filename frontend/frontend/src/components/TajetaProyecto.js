@@ -1,8 +1,9 @@
 import React from 'react';
+import './components.css'; // Importa los estilos específicos
 
 function TarjetaProyecto({ proyecto }) {
   return (
-    <div style={{ border: '1px solid #ccc', padding: '10px', marginBottom: '10px' }}>
+    <div className="tarjeta-proyecto">
       <h3>{proyecto.nombre}</h3>
       <p>{proyecto.descripcion}</p>
       <small>Creado el: {new Date(proyecto.fechaCreacion).toLocaleDateString()}</small>

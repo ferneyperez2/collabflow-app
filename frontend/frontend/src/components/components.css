@@ -1,0 +1,14 @@
+/* ... otros estilos ... */
+
+.tarjeta-proyecto {
+ border: 1px solid #ccc;
+ padding: 15px;
+ margin-bottom: 10px;
+ border-radius: 5px;
+ background-color: #f9f9f9;
+}
+
+.tarjeta-proyecto h3 {
+ color: #28a745;
+ margin-top: 0;
+}

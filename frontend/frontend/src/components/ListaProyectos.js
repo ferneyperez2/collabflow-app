@@ -1,5 +1,5 @@
 import React from 'react';
-import TarjetaProyecto from './TarjetaProyecto';
+import TarjetaProyecto from './TajetaProyecto';
 
 function ListaProyectos({ proyectos }) {
   return (
